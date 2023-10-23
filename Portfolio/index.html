@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, intial scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+                       <!---header section-->
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logo.png" class="logo">
+                    <ul>
+                        <li><a href=#header>Home</a></li>
+                        <li><a href=#about>About</a></li>
+                        <li><a href=#skills>Skills</a></li>
+                        <li><a href=#projects>Projects</a></li>
+                        <li><a href=#contact>Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-text">
+                <p>CSE Undergratuate</p>
+                <h1>Hi, I'm <span>Avaneesha</span><br>from Mysuru</h1>
+            </div>
+        </div>
+                        <!---about section-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col1">
+                        <img src="user.avif">
+                    </div>
+                    <div class="about-col2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="info">3rd Year Computer Science Undergratuate from Sri Jayachamarajendra College of Engneering, JSS Science and Technology University, Mysuru. An innovative thinker, initiative taker and multi dimensional professional with exceptional logical and analytical skills.</p>
+                    </div>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link">Education</p>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Vivekananda English Medium School</span><br>2009-2019<br>SSLC Percentage: 99.2%</li>
+                            <li><span>Vivekananda Pre-University College</span><br>2019-2021<br>PUC Percentage: 100%</li>
+                            <li><span>Sri Jayachamarajendra College Of Engineering</span><br>2021-2025<br>Avg CGPA: 9.4</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+                            <!-------Skills------>
+        <div id="skills">
+            <div class="container">
+                <h1 class="sub-title">Skills</h1>
+                <div class="row-skill">
+                    <div class="skills-col2">
+                        <div class="skills">
+                            <div class="skill">
+                              <div class="skill-name">C Programming</div>
+                                <div class="skill-bar">
+                                <div class="skill-per" per="90%" style="max-width:90%"></div>
+                              </div>
+                            </div>
+                      
+                            <div class="skill">
+                              <div class="skill-name">Java Programming</div>
+                                <div class="skill-bar">
+                                   <div class="skill-per" per="50%" style="max-width:60%"></div>
+                                </div>
+                            </div>
+                      
+                            <div class="skill">
+                              <div class="skill-name">Python</div>
+                                <div class="skill-bar">
+                                <div class="skill-per" per="60%" style="max-width:50%"></div>
+                              </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">Data Structures and Algorithms</div>
+                                  <div class="skill-bar">
+                                  <div class="skill-per" per="90%" style="max-width:90%"></div>
+                                </div>
+                              </div>
+                        
+                              <div class="skill">
+                                <div class="skill-name">Web Development</div>
+                                  <div class="skill-bar">
+                                  <div class="skill-per" per="80%" style="max-width:80%"></div>
+                                </div>
+                              </div>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                            <!------Projects------>
+        <div id="projects">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="projects-list">
+                    <div>
+                        <img src="icons8-web-development-120.png">
+                        <h2>Resume Builder Website</h2>
+                        <p>It is created using Front End technologies Using HTML, CSS. The website will generate the resume according to the submitted details.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <img src="icons8-python-120.png">
+                        <h2>Flash Games using Python</h2>
+                        <p>USing the turtle library, Turtle Crossing Game and Snake Game has been developed.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+                            <!------Contact Section----->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <div class="contact-info">
+                            <img src="icons8-gmail-32.png">
+                            <p>avaneeshak4@gmail.com</p>
+                        </div>
+                        <div class="contact-info">
+                            <img src="icons8-phone-32.png">
+                            <p>8748952966</p>
+                        </div>
+                        <a href="Resume.pdf" download class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form action="mailto:avaneeshak4@gmail.com" method="post" enctype="text/plain">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+                             <!---Footer Section-->
+            <div class="copyright">
+                <p>Copyright © Avaneesha.K</p>
+            </div>
+        </div>
+
+    </body>
+</html>
